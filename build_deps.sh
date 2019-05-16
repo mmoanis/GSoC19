@@ -19,7 +19,7 @@ install_deps_centos() {
         sudo yum -y install centos-release-scl
         sudo yum -y install devtoolset-7-gcc* devtoolset-7-gcc-c++
         #scl enable devtoolset-7 bash
-        source /opt/rh/devtoolset-2/enable
+        source /opt/rh/devtoolset-7/enable
         # dependencies for Geant4 & Root
         sudo yum -y install git cmake3 binutils libX11-devel libXpm-devel libXft-devel libXext-devel wget \
         gcc-gfortran openssl-devel pcre-devel \
