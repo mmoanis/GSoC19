@@ -1,0 +1,44 @@
+ *** Break *** segmentation violation
+ Generating stack trace...
+ 0x00007f7dd9735260 in allpix::DepositedCharge::getMCParticle() const + 0x10 from /home/mmoanis_ali/allpix-squared/lib/libAllpixObjects.so
+ 0x00007f7dd9735937 in allpix::PropagatedCharge::PropagatedCharge(ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>, ROOT::Math::DefaultCoordinateSystemTag>, ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>, ROOT::Math::DefaultCoordinateSystemTag>, allpix::CarrierType, unsigned int, double, allpix::DepositedCharge const*) + 0xe7 from /home/mmoanis_ali/allpix-squared/lib/libAllpixObjects.so
+ 0x00007f7de50dc2e4 in allpix::GenericPropagationModule::run(allpix::Event*) const + 0x954 from /home/mmoanis_ali/allpix-squared/lib/libAllpixModuleGenericPropagation.so
+ 0x00007f7dd99a150c in allpix::Event::run(std::shared_ptr<allpix::Module>&) + 0x80c from /home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f7dd99a2454 in allpix::Event::run() + 0x24 from /home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f7dd99a29d6 in <unknown> from /home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f7dd99b52f5 in _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_12_Task_setterIS0_INS1_7_ResultIvEES3_EZNS1_11_Task_stateISt8functionIFvvEESaIiESC_E6_M_runEvEUlvE_vEEE9_ + 0x25 from /home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f7dd99b558b in std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) + 0x1b from /home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f7dd4fd3e40 in pthread_once at :? from /usr/lib64/libpthread.so.0
+ 0x00007f7dd99b59b4 in void std::call_once<void (std::__future_base::_State_baseV2::*)(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*), std::__future_base::_State_baseV2*, std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*>(std::once_flag&, void (std::__future_base::_State_baseV2::*&&)(std::function<std::unique_ptr<std::__future_base::_Result_base,
+ std::__future_base::_Result_base::_Deleter> ()>*, bool*), std::__future_base::_State_baseV2*&&, std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*&&, bool*&&) + 0x64 from /home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f7dd99b4459 in allpix::ThreadPool::worker(std::function<void ()> const&) + 0x179 from /home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f7de091dbbf in <unknown> from /usr/local/lib64/libG4run.so
+ 0x00007f7dd4fcedd5 in <unknown> from /usr/lib64/libpthread.so.0
+ 0x00007f7dd2063ead in clone + 0x6d from /usr/lib64/libc.so.6
+
+** Error in `../allpix-squared/bin/allpix': double free or corruption (out): 0x0000000002acfcf0 ***
+======= Backtrace: =========
+/usr/lib64/libc.so.6(+0x81489)[0x7f7dd1fe7489]
+/usr/local/lib64/libG4geometry.so(_ZN21G4PhysicalVolumeStore5CleanEv+0x70)[0x7f7ddabc58f0]
+/usr/local/lib64/libG4geometry.so(_ZN21G4PhysicalVolumeStoreD1Ev+0x17)[0x7f7ddabc59e7]
+/usr/lib64/libc.so.6(+0x39b69)[0x7f7dd1f9fb69]
+/usr/lib64/libc.so.6(+0x39bb7)[0x7f7dd1f9fbb7]
+/usr/local/lib/libCore.so(_ZN11TUnixSystem15DispatchSignalsE8ESignals+0x219)[0x7f7dd91c3459]
+/usr/lib64/libpthread.so.0(+0xf5d0)[0x7f7dd4fd65d0]
+/usr/local/lib/libCore.so(_ZN10TProcessID15GetObjectWithIDEj+0x46)[0x7f7dd90bc766]
+/usr/local/lib/libCore.so(_ZNK4TRef9GetObjectEv+0xa5)[0x7f7dd90c97a5]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixObjects.so(_ZNK6allpix15DepositedCharge13getMCParticleEv+0x10)[0x7f7dd9735260]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixObjects.so(_ZN6allpix16PropagatedChargeC1EN4ROOT4Math16PositionVector3DINS2_11Cartesian3DIdEENS2_26DefaultCoordinateSystemTagEEES7_NS_11CarrierTypeEjdPKNS_15DepositedChargeE+0xe7)[0x7f7dd9735937]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixModuleGenericPropagation.so(_ZNK6allpix24GenericPropagationModule3runEPNS_5EventE+0x954)[0x7f7de50dc2e4]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so(_ZN6allpix5Event3runERSt10shared_ptrINS_6ModuleEE+0x80c)[0x7f7dd99a150c]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so(_ZN6allpix5Event3runEv+0x24)[0x7f7dd99a2454]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so(+0x4a9d6)[0x7f7dd99a29d6]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so(_ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_12_Task_setterIS0_INS1_7_ResultIvEES3_EZNS1_11_Task_stateISt8functionIFvvEESaIiESC_E6_M_runEvEUlv
+E_vEEE9_M_invokeERKSt9_Any_data+0x25)[0x7f7dd99b52f5]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so(_ZNSt13__future_base13_State_baseV29_M_do_setEPSt8functionIFSt10unique_ptrINS_12_Result_baseENS3_8_DeleterEEvEEPb+0x1b)[0x7f7dd99b558b]
+/usr/lib64/libpthread.so.0(pthread_once+0x50)[0x7f7dd4fd3e40]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so(_ZSt9call_onceIMNSt13__future_base13_State_baseV2EFvPSt8functionIFSt10unique_ptrINS0_12_Result_baseENS4_8_DeleterEEvEEPbEJPS1_S9_SA_EEvRSt9once_flagOT_DpOT0_+0x64)[0x7f7dd99b59b4]
+/home/mmoanis_ali/allpix-squared/lib/libAllpixCore.so(_ZN6allpix10ThreadPool6workerERKSt8functionIFvvEE+0x179)[0x7f7dd99b4459]
+/usr/local/lib64/libG4run.so(+0x70bbf)[0x7f7de091dbbf]
+/usr/lib64/libpthread.so.0(+0x7dd5)[0x7f7dd4fcedd5]
+/usr/lib64/libc.so.6(clone+0x6d)[0x7f7dd2063ead]
