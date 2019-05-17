@@ -1,0 +1,17 @@
+ 0x00007f6a54076570 in allpix::DepositedCharge::getMCParticle() const + 0x10 from /home/moali/allpix-squared/lib/libAllpixObjects.so
+ 0x00007f6a5407680f in allpix::PropagatedCharge::PropagatedCharge(ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>, ROOT::Math::DefaultCoordinateSystemTag>, ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>, ROOT::Math::DefaultCoordinateSystemTag>, allpix::CarrierType, unsigned int, double, allpix::DepositedCharge const*) + 0xdf from /home/moali/allpix-squared/lib/libAllpixObjects.so
+ 0x00007f6a37581d8b in allpix::GenericPropagationModule::run(allpix::Event*) const + 0x8eb from /home/moali/allpix-squared/lib/libAllpixModuleGenericPropagation.so
+ 0x00007f6a55d8d854 in allpix::Event::run(std::shared_ptr<allpix::Module>&) + 0xd04 from /home/moali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f6a55d8e2b4 in allpix::Event::run() + 0x24 from /home/moali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f6a55d8eb59 in <unknown> from /home/moali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f6a55da15b5 in _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_12_Task_setterIS0_INS1_7_ResultIvEES3_EZNS1_11_Task_stateISt8functionIFvvEESaIiESC_E6_M_runEvEUlvE_vEEE9_ + 0x35 from /home/moali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f6a55da1a69 in std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) + 0x29 from /home/moali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f6a53c44827 in <unknown> from /lib/x86_64-linux-gnu/libpthread.so.0
+ 0x00007f6a55da0558 in allpix::ThreadPool::worker(std::function<void ()> const&) + 0x2c8 from /home/moali/allpix-squared/lib/libAllpixCore.so
+ 0x00007f6a5518166f in <unknown> from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+ 0x00007f6a53c3c6db in <unknown> from /lib/x86_64-linux-gnu/libpthread.so.0
+ 0x00007f6a54bdc88f in clone + 0x3f from /lib/x86_64-linux-gnu/libc.so.6
+|15:43:04.752|    (INFO) (Event 26) [R:GenericPropagation:detector6] Propagated 57900 charges in 918 steps in average time of 23.4674ns
+double free or corruption (out)
+Aborted (core dumped)
+
