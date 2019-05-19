@@ -1,0 +1,15 @@
+12detector_12cpu.log:|12:47:45.225|  (STATUS) Executed 50 instantiations in 1 hours 4 minutes 59 seconds, spending 36% of time in slowest instantiation GenericPropagation:detector3
+12detector_16cpu.log:|19:27:09.257|  (STATUS) Executed 50 instantiations in 1 hours 5 minutes 15 seconds, spending 36% of time in slowest instantiation GenericPropagation:detector3
+12detector_1cpu.log:|16:38:01.007|  (STATUS) Executed 50 instantiations in 4 hours 13 minutes 46 seconds, spending 8% of time in slowest instantiation GenericPropagation:detector3
+12detector_4cpu.log:|21:16:20.245|  (STATUS) Executed 50 instantiations in 1 hours 36 minutes 16 seconds, spending 23% of time in slowest instantiation GenericPropagation:detector3
+12detector_8cpu.log:|18:11:53.235|  (STATUS) Executed 50 instantiations in 1 hours 13 minutes 40 seconds, spending 30% of time in slowest instantiation GenericPropagation:detector3
+1detector_12cpu.log:|11:08:54.451|  (STATUS) Executed 6 instantiations in 20 minutes 52 seconds, spending 94% of time in slowest instantiation GenericPropagation:detector1
+1detector_16cpu.log:|11:31:18.074|  (STATUS) Executed 6 instantiations in 20 minutes 50 seconds, spending 95% of time in slowest instantiation GenericPropagation:detector1
+1detector_1cpu.log:|16:53:19.808|  (STATUS) Executed 6 instantiations in 20 minutes 35 seconds, spending 95% of time in slowest instantiation GenericPropagation:detector1
+1detector_4cpu.log:|18:01:27.776|  (STATUS) Executed 6 instantiations in 20 minutes 46 seconds, spending 95% of time in slowest instantiation GenericPropagation:detector1
+1detector_8cpu.log:|10:33:28.365|  (STATUS) Executed 6 instantiations in 20 minutes 51 seconds, spending 95% of time in slowest instantiation GenericPropagation:detector1
+4detector_12cpu.log:|17:49:06.447|  (STATUS) Executed 18 instantiations in 39 minutes 37 seconds, spending 58% of time in slowest instantiation GenericPropagation:detector4
+4detector_16cpu.log:|15:20:59.420|  (STATUS) Executed 18 instantiations in 39 minutes 36 seconds, spending 58% of time in slowest instantiation GenericPropagation:detector4
+4detector_1cpu.log:|16:14:01.164|  (STATUS) Executed 18 instantiations in 1 hours 28 minutes 59 seconds, spending 25% of time in slowest instantiation GenericPropagation:detector4
+4detector_4cpu.log:|19:19:51.054|  (STATUS) Executed 18 instantiations in 39 minutes 32 seconds, spending 58% of time in slowest instantiation GenericPropagation:detector4
+4detector_8cpu.log:|18:36:43.626|  (STATUS) Executed 18 instantiations in 39 minutes 36 seconds, spending 58% of time in slowest instantiation GenericPropagation:detector4
