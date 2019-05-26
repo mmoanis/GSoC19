@@ -1,0 +1,19 @@
+G4RunManager::BeamOn
+    G4RunManager::ConstructScoringWorlds
+    G4RunManager::RunInitialization
+    G4RunManager::DoEventLoop
+        G4RunManager::InitializeEventLoop
+        for each event
+            G4RunManager::ProcessOneEvent
+                G4RunManager::GenerateEvent
+                    new G4Event
+                eventManager->ProcessOneEvent
+                G4RunManager::AnalyzeEvent
+                G4RunManager::UpdateScoring
+            G4RunManager::TerminateOneEvent
+                G4RunManager::StackPreviousEvent
+            G4RunManager::TerminateEventLoop
+                print stats
+    G4RunManager::RunTermination
+        G4RunManager::CleanUpUnnecessaryEvents
+        kernel->RunTermination

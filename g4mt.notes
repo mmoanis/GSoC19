@@ -1,0 +1,75 @@
+G4RunManager::BeamOn
+    G4MTRunManager::ConstructScoringWorlds
+    G4RunManager::RunInitialization
+    G4RunManager::DoEventLoop
+        G4MTRunManager::InitializeEventLoop
+            MTkernel->SetUpDecayChannels();
+            G4MTRunManager::InitializeSeeds -- Custom Seed Initialization
+            G4MTRunManager::PrepareCommandsStack
+            G4MTRunManager::CreateAndStartWorkers
+                new G4WorkerThread
+                G4MTRunManager::NewActionRequest
+                    ->(WorkerActionRequest::NEXTITERATION)
+            G4MTRunManager::WaitForReadyWorkers
+                barrier wait for all threads to be ready
+        for each event do nothing
+    G4MTRunManager::RunTermination
+        G4MTRunManager::WaitForEndEventLoopWorkers
+        G4RunManager::TerminateEventLoop
+        G4RunManager::RunTermination
+
+
+------------------------------------------------------------------------------
+G4WorkerRunManager::DoWork
+    G4MTRunManager::ThisWorkerWaitForNextAction
+        barrier notify master I am ready and wait for others
+    G4RunManager::BeamOn
+        G4WorkerRunManager::ConstructScoringWorlds
+        G4WorkerRunManager::RunInitialization
+        G4WorkerRunManager::DoEventLoop
+            G4RunManager::InitializeEventLoop
+            reset seeds queue
+            while(eventLoopOnGoing)
+                G4WorkerRunManager::ProcessOneEvent
+                    G4WorkerRunManager::GenerateEvent*
+                        G4MTRunManager::SetUpAnEvent
+                        G4MTRunManager::SetUpNEvents
+                        G4Random::setTheSeeds
+                    eventManager->ProcessOneEvent
+                    G4RunManager::AnalyzeEvent
+                    G4RunManager::UpdateScoring
+                G4WorkerRunManager::TerminateOneEvent
+            G4WorkerRunManager::TerminateEventLoop
+                print stats
+        G4RunManager::RunTermination
+            G4WorkerRunManager::MergePartialResults
+            G4RunManager::RunTermination
+            G4MTRunManager::ThisWorkerEndEventLoop
+            
+------------------------------------------------------------------------------
+*The Worker Run manager must ask the master for how much work it should do
+where many things come to play.
+The master will tell each worker how many events to process it will also help
+with the seeding of the RNG.
+
+Master variables:
+    SeedOncePerCommunication
+      // If it is set to 0 (default), seeds that are centrally managed 
+      //   by G4MTRunManager are set for every event of every worker thread. 
+      //   This option guarantees event reproducability regardless of number 
+      //   of threads. 
+    eventModuloDef
+    eventModulo
+
+eventModuloDef if equals 1, then master will generate a new event for each
+worker by itself otherwise, master will initialize one event - the one at the
+begining of worker tasks and fill the worker seed queue to be used by the 
+worker to create the rest of events
+
+
+
+
+
+
+
+
