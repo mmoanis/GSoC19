@@ -1,3 +1,20 @@
+Geant4 MT RunManager Break down
+-------------------------------
+
+The main idea is that the run manager exposed to client act as a master
+that creates and issues orders for workers.
+As before client only deal with 1 run manager --a singleton instance--
+and under the hood the master will create the threads and create the
+workers.
+Since Geant4 relies extensively on global static variables, the workers
+are allocated on a thread local basis.
+
+The following is the break down of calling the BeamON API.
+
+
+===========================
+Master Manager Prespective:
+===========================
 G4RunManager::BeamOn
     G4MTRunManager::ConstructScoringWorlds
     G4RunManager::RunInitialization
@@ -18,8 +35,9 @@ G4RunManager::BeamOn
         G4RunManager::TerminateEventLoop
         G4RunManager::RunTermination
 
-
-------------------------------------------------------------------------------
+===========================
+Worker Manager Prespective:
+===========================
 G4WorkerRunManager::DoWork
     G4MTRunManager::ThisWorkerWaitForNextAction
         barrier notify master I am ready and wait for others
