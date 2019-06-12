@@ -1,0 +1,245 @@
+Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolume ProcName
+    0    -1.17    0.178     -200   1.2e+05        0        0         0       World initStep
+    1    -1.17    0.178     -148   1.2e+05     0.01     52.2      52.2       World hIoni
+    :----- List of 2ndaries - #SpawnInStep=  1(Rest= 0,Along= 0,Post= 1), #SpawnTotal=  1 ---------------
+    :     -1.17     0.178      -148   0.00109                 e-
+    :----------------------------------------------------------------- EndOf2ndaries Info ---------------
+    2    -1.17    0.178     -113   1.2e+05   0.0061     34.8        87       World hIoni
+    :----- List of 2ndaries - #SpawnInStep=  1(Rest= 0,Along= 0,Post= 1), #SpawnTotal=  2 ---------------
+    :     -1.17     0.178      -113   0.00137                 e-
+    :----------------------------------------------------------------- EndOf2ndaries Info ---------------
+    3    -1.17    0.178     -2.1   1.2e+05   0.0207      111       198 sensor_telescope0_phys Transportation
+    4    -1.17    0.178    -2.09   1.2e+05  0.00403     0.01       198 sensor_telescope0_phys StepLimiter
+    5    -1.17    0.178    -2.08   1.2e+05  0.00582     0.01       198 sensor_telescope0_phys StepLimiter
+    6    -1.17    0.178    -2.07   1.2e+05  0.00268     0.01       198 sensor_telescope0_phys StepLimiter
+    7    -1.17    0.178    -2.06   1.2e+05  0.00319     0.01       198 sensor_telescope0_phys StepLimiter
+    8    -1.17    0.178    -2.05   1.2e+05  0.00102     0.01       198 sensor_telescope0_phys StepLimiter
+    9    -1.17    0.178    -2.04   1.2e+05  0.00288     0.01       198 sensor_telescope0_phys StepLimiter
+   10    -1.17    0.178    -2.03   1.2e+05   0.0012     0.01       198 sensor_telescope0_phys StepLimiter
+   11    -1.17    0.178    -2.02   1.2e+05  0.00215     0.01       198 sensor_telescope0_phys StepLimiter
+   12    -1.17    0.178    -2.01   1.2e+05  0.00352     0.01       198 sensor_telescope0_phys StepLimiter
+   13    -1.17    0.178       -2   1.2e+05  0.00174     0.01       198 sensor_telescope0_phys StepLimiter
+   14    -1.17    0.178    -1.99   1.2e+05  0.00928     0.01       198 sensor_telescope0_phys StepLimiter
+   15    -1.17    0.178    -1.98   1.2e+05  0.00301     0.01       198 sensor_telescope0_phys StepLimiter
+   16    -1.17    0.178    -1.97   1.2e+05  0.00301     0.01       198 sensor_telescope0_phys StepLimiter
+   17    -1.17    0.178    -1.96   1.2e+05  0.00523     0.01       198 sensor_telescope0_phys StepLimiter
+   18    -1.17    0.178    -1.95   1.2e+05  0.00364     0.01       198 sensor_telescope0_phys StepLimiter
+   19    -1.17    0.178    -1.94   1.2e+05 0.000927     0.01       198 sensor_telescope0_phys StepLimiter
+   20    -1.17    0.178    -1.93   1.2e+05 0.000987     0.01       198 sensor_telescope0_phys StepLimiter
+   21    -1.17    0.178    -1.92   1.2e+05  0.00217     0.01       198 sensor_telescope0_phys StepLimiter
+   22    -1.17    0.178    -1.91   1.2e+05  0.00264     0.01       198 sensor_telescope0_phys StepLimiter
+   23    -1.17    0.178     -1.9   1.2e+05  0.00162     0.01       198 sensor_telescope0_phys StepLimiter
+   24    -1.17    0.178    -1.89   1.2e+05  0.00206     0.01       198 sensor_telescope0_phys StepLimiter
+   25    -1.17    0.178    -1.89   1.2e+05  0.00103  0.00545       198 sensor_telescope0_phys hIoni
+    :----- List of 2ndaries - #SpawnInStep=  1(Rest= 0,Along= 0,Post= 1), #SpawnTotal=  3 ---------------
+    :     -1.17     0.178     -1.89     0.107                 e-
+    :----------------------------------------------------------------- EndOf2ndaries Info ---------------
+   26    -1.17    0.178    -1.88   1.2e+05  0.00395     0.01       198 sensor_telescope0_phys StepLimiter
+   27    -1.17    0.178    -1.87   1.2e+05  0.00125     0.01       198 sensor_telescope0_phys StepLimiter
+   28    -1.17    0.178    -1.86   1.2e+05  0.00291     0.01       198 sensor_telescope0_phys StepLimiter
+   29    -1.17    0.178    -1.85   1.2e+05   0.0019     0.01       198 sensor_telescope0_phys StepLimiter
+   30    -1.17    0.178    -1.84   1.2e+05  0.00344     0.01       198 sensor_telescope0_phys StepLimiter
+   31    -1.17    0.178    -1.83   1.2e+05  0.00216     0.01       198 sensor_telescope0_phys StepLimiter
+   32    -1.17    0.178    -1.82   1.2e+05  0.00289     0.01       198 sensor_telescope0_phys StepLimiter
+   33    -1.17    0.178    -1.81   1.2e+05  0.00176     0.01       198 sensor_telescope0_phys StepLimiter
+   34    -1.17    0.178     -1.8   1.2e+05  0.00212     0.01       198 sensor_telescope0_phys StepLimiter
+   35    -1.17    0.178     -1.8   1.2e+05 6.75e-05  0.00143       198 bumps_wrapper_telescope0_phys Transportation
+   36    -1.17    0.178    -1.78   1.2e+05    4e-06   0.0205       198 chip_telescope0_phys Transportation
+   37    -1.17    0.178    -1.06   1.2e+05    0.236    0.716       199 support_telescope0_phys_0 Transportation
+   38    -1.17    0.178    0.739   1.2e+05    0.476      1.8       201       World Transportation
+   39    -1.17    0.179     48.1   1.2e+05   0.0108     47.3       248 sensor_telescope1_phys Transportation
+   40    -1.17    0.179     48.1   1.2e+05  0.00481     0.01       248 sensor_telescope1_phys StepLimiter
+   41    -1.17    0.179     48.1   1.2e+05  0.00127     0.01       248 sensor_telescope1_phys StepLimiter
+   42    -1.17    0.179     48.1   1.2e+05  0.00251     0.01       248 sensor_telescope1_phys StepLimiter
+   43    -1.17    0.179     48.1   1.2e+05  0.00361     0.01       248 sensor_telescope1_phys StepLimiter
+   44    -1.17    0.179     48.1   1.2e+05  0.00197     0.01       248 sensor_telescope1_phys StepLimiter
+   45    -1.17    0.179     48.1   1.2e+05  0.00177     0.01       248 sensor_telescope1_phys StepLimiter
+   46    -1.17    0.179     48.1   1.2e+05  0.00182     0.01       248 sensor_telescope1_phys StepLimiter
+   47    -1.17    0.179     48.2   1.2e+05  0.00113   0.0055       248 sensor_telescope1_phys hIoni
+    :----- List of 2ndaries - #SpawnInStep=  1(Rest= 0,Along= 0,Post= 1), #SpawnTotal=  4 ---------------
+    :     -1.17     0.179      48.2    0.0377                 e-
+    :----------------------------------------------------------------- EndOf2ndaries Info ---------------
+   48    -1.17    0.179     48.2   1.2e+05  0.00222     0.01       248 sensor_telescope1_phys StepLimiter
+   49    -1.17    0.179     48.2   1.2e+05  0.00274     0.01       248 sensor_telescope1_phys StepLimiter
+   50    -1.17    0.179     48.2   1.2e+05  0.00151     0.01       248 sensor_telescope1_phys StepLimiter
+   51    -1.17    0.179     48.2   1.2e+05   0.0017     0.01       248 sensor_telescope1_phys StepLimiter
+   52    -1.17    0.179     48.2   1.2e+05   0.0018     0.01       248 sensor_telescope1_phys StepLimiter
+   53    -1.17    0.179     48.2   1.2e+05  0.00194     0.01       248 sensor_telescope1_phys StepLimiter
+   54    -1.17    0.179     48.2   1.2e+05  0.00348     0.01       248 sensor_telescope1_phys StepLimiter
+   55    -1.17    0.179     48.2   1.2e+05  0.00216     0.01       248 sensor_telescope1_phys StepLimiter
+   56    -1.17    0.179     48.2   1.2e+05  0.00305     0.01       248 sensor_telescope1_phys StepLimiter
+   57    -1.17    0.179     48.3   1.2e+05  0.00253     0.01       248 sensor_telescope1_phys StepLimiter
+   58    -1.17    0.179     48.3   1.2e+05  0.00262     0.01       248 sensor_telescope1_phys StepLimiter
+   59    -1.17    0.179     48.3   1.2e+05  0.00157     0.01       248 sensor_telescope1_phys StepLimiter
+   60    -1.17    0.179     48.3   1.2e+05  0.00323     0.01       248 sensor_telescope1_phys StepLimiter
+   61    -1.17    0.179     48.3   1.2e+05  0.00356     0.01       248 sensor_telescope1_phys StepLimiter
+   62    -1.17    0.179     48.3   1.2e+05  0.00362     0.01       248 sensor_telescope1_phys StepLimiter
+   63    -1.17    0.179     48.3   1.2e+05  0.00179     0.01       248 sensor_telescope1_phys StepLimiter
+   64    -1.17    0.179     48.3   1.2e+05  0.00198     0.01       248 sensor_telescope1_phys StepLimiter
+   65    -1.17    0.179     48.3   1.2e+05  0.00297     0.01       248 sensor_telescope1_phys StepLimiter
+   66    -1.17    0.179     48.3   1.2e+05  0.00133     0.01       248 sensor_telescope1_phys StepLimiter
+   67    -1.17    0.179     48.4   1.2e+05   0.0034     0.01       248 sensor_telescope1_phys StepLimiter
+   68    -1.17    0.179     48.4   1.2e+05  0.00644     0.01       248 sensor_telescope1_phys StepLimiter
+   69    -1.17    0.179     48.4   1.2e+05   0.0015     0.01       248 sensor_telescope1_phys StepLimiter
+   70    -1.17    0.179     48.4   1.2e+05  0.00133     0.01       248 sensor_telescope1_phys StepLimiter
+   71    -1.17    0.179     48.4   1.2e+05 0.000761  0.00293       248 bumps_telescope1_phys Transportation
+   72    -1.17    0.179     48.4   1.2e+05   0.0279   0.0206       248 chip_telescope1_phys Transportation
+   73    -1.17    0.179     49.1   1.2e+05    0.221     0.72       249 support_telescope1_phys_0 Transportation
+   74    -1.17    0.179     50.9   1.2e+05     0.39     1.81       251       World Transportation
+   75    -1.17    0.178       99   1.2e+05    0.011     48.1       299 sensor_telescope2_phys Transportation
+   76    -1.17    0.178       99   1.2e+05  0.00173     0.01       299 sensor_telescope2_phys StepLimiter
+   77    -1.17    0.178       99   1.2e+05  0.00185     0.01       299 sensor_telescope2_phys StepLimiter
+   78    -1.17    0.178     99.1   1.2e+05  0.00331     0.01       299 sensor_telescope2_phys StepLimiter
+   79    -1.17    0.178     99.1   1.2e+05  0.00167     0.01       299 sensor_telescope2_phys StepLimiter
+   80    -1.17    0.178     99.1   1.2e+05  0.00251     0.01       299 sensor_telescope2_phys StepLimiter
+   81    -1.17    0.178     99.1   1.2e+05  0.00139     0.01       299 sensor_telescope2_phys StepLimiter
+   82    -1.17    0.178     99.1   1.2e+05  0.00142     0.01       299 sensor_telescope2_phys StepLimiter
+   83    -1.17    0.178     99.1   1.2e+05  0.00251     0.01       299 sensor_telescope2_phys StepLimiter
+   84    -1.17    0.178     99.1   1.2e+05  0.00218     0.01       299 sensor_telescope2_phys StepLimiter
+   85    -1.17    0.178     99.1   1.2e+05  0.00192     0.01       299 sensor_telescope2_phys StepLimiter
+   86    -1.17    0.178     99.1   1.2e+05  0.00126     0.01       299 sensor_telescope2_phys StepLimiter
+   87    -1.17    0.178     99.1   1.2e+05  0.00244     0.01       299 sensor_telescope2_phys StepLimiter
+   88    -1.17    0.178     99.2   1.2e+05   0.0025     0.01       299 sensor_telescope2_phys StepLimiter
+   89    -1.17    0.178     99.2   1.2e+05  0.00345     0.01       299 sensor_telescope2_phys StepLimiter
+   90    -1.17    0.178     99.2   1.2e+05  0.00212     0.01       299 sensor_telescope2_phys StepLimiter
+   91    -1.17    0.178     99.2   1.2e+05   0.0024     0.01       299 sensor_telescope2_phys StepLimiter
+   92    -1.17    0.178     99.2   1.2e+05  0.00174     0.01       299 sensor_telescope2_phys StepLimiter
+   93    -1.17    0.178     99.2   1.2e+05  0.00279     0.01       299 sensor_telescope2_phys StepLimiter
+   94    -1.17    0.178     99.2   1.2e+05  0.00215     0.01       299 sensor_telescope2_phys StepLimiter
+   95    -1.17    0.178     99.2   1.2e+05  0.00134     0.01       299 sensor_telescope2_phys StepLimiter
+   96    -1.17    0.178     99.2   1.2e+05  0.00324     0.01       299 sensor_telescope2_phys StepLimiter
+   97    -1.17    0.178     99.2   1.2e+05  0.00264     0.01       299 sensor_telescope2_phys StepLimiter
+   98    -1.17    0.178     99.3   1.2e+05  0.00141     0.01       299 sensor_telescope2_phys StepLimiter
+   99    -1.17    0.178     99.3   1.2e+05  0.00563     0.01       299 sensor_telescope2_phys StepLimiter
+  100    -1.17    0.178     99.3   1.2e+05  0.00193     0.01       299 sensor_telescope2_phys StepLimiter
+  101    -1.17    0.178     99.3   1.2e+05  0.00264     0.01       299 sensor_telescope2_phys StepLimiter
+  102    -1.17    0.178     99.3   1.2e+05  0.00241     0.01       299 sensor_telescope2_phys StepLimiter
+  103    -1.17    0.178     99.3   1.2e+05  0.00328     0.01       299 sensor_telescope2_phys StepLimiter
+  104    -1.17    0.178     99.3   1.2e+05   0.0053     0.01       299 sensor_telescope2_phys StepLimiter
+  105    -1.17    0.178     99.3   1.2e+05  0.00728     0.01       299 sensor_telescope2_phys StepLimiter
+  106    -1.17    0.178     99.3   1.2e+05  0.00251  0.00824       299 bumps_wrapper_telescope2_phys Transportation
+  107    -1.17    0.178     99.4   1.2e+05 4.01e-06   0.0205       299 chip_telescope2_phys Transportation
+  108    -1.17    0.178      100   1.2e+05     0.25    0.719       300 support_telescope2_phys_0 Transportation
+  109    -1.17    0.178      102   1.2e+05    0.418     1.81       302       World Transportation
+  110    -1.17    0.175      202   1.2e+05   0.0206     99.8       402 sensor_telescope3_phys Transportation
+  111    -1.17    0.175      202   1.2e+05  0.00118     0.01       402 sensor_telescope3_phys StepLimiter
+  112    -1.17    0.175      202   1.2e+05  0.00282     0.01       402 sensor_telescope3_phys StepLimiter
+  113    -1.17    0.175      202   1.2e+05  0.00601     0.01       402 sensor_telescope3_phys StepLimiter
+  114    -1.17    0.175      202   1.2e+05  0.00155     0.01       402 sensor_telescope3_phys StepLimiter
+  115    -1.17    0.175      202   1.2e+05  0.00285     0.01       402 sensor_telescope3_phys StepLimiter
+  116    -1.17    0.175      202   1.2e+05  0.00167     0.01       402 sensor_telescope3_phys StepLimiter
+  117    -1.17    0.175      202   1.2e+05  0.00221     0.01       402 sensor_telescope3_phys StepLimiter
+  118    -1.17    0.175      202   1.2e+05  0.00214     0.01       402 sensor_telescope3_phys StepLimiter
+  119    -1.17    0.175      202   1.2e+05 0.000548     0.01       402 sensor_telescope3_phys StepLimiter
+  120    -1.17    0.175      202   1.2e+05  0.00282     0.01       402 sensor_telescope3_phys StepLimiter
+  121    -1.17    0.175      202   1.2e+05  0.00268     0.01       402 sensor_telescope3_phys StepLimiter
+  122    -1.17    0.175      202   1.2e+05  0.00307     0.01       402 sensor_telescope3_phys StepLimiter
+  123    -1.17    0.175      202   1.2e+05  0.00342     0.01       402 sensor_telescope3_phys StepLimiter
+  124    -1.17    0.175      202   1.2e+05  0.00185     0.01       402 sensor_telescope3_phys StepLimiter
+  125    -1.17    0.175      202   1.2e+05  0.00197     0.01       402 sensor_telescope3_phys StepLimiter
+  126    -1.17    0.175      202   1.2e+05  0.00339     0.01       402 sensor_telescope3_phys StepLimiter
+  127    -1.17    0.175      202   1.2e+05  0.00132     0.01       402 sensor_telescope3_phys StepLimiter
+  128    -1.17    0.175      202   1.2e+05  0.00238     0.01       402 sensor_telescope3_phys StepLimiter
+  129    -1.17    0.175      202   1.2e+05  0.00175     0.01       402 sensor_telescope3_phys StepLimiter
+  130    -1.17    0.175      202   1.2e+05  0.00117     0.01       402 sensor_telescope3_phys StepLimiter
+  131    -1.17    0.175      202   1.2e+05   0.0036     0.01       402 sensor_telescope3_phys StepLimiter
+  132    -1.17    0.175      202   1.2e+05  0.00286     0.01       402 sensor_telescope3_phys StepLimiter
+  133    -1.17    0.175      202   1.2e+05  0.00287     0.01       402 sensor_telescope3_phys StepLimiter
+  134    -1.17    0.175      202   1.2e+05  0.00768     0.01       402 sensor_telescope3_phys StepLimiter
+  135    -1.17    0.175      202   1.2e+05   0.0032     0.01       402 sensor_telescope3_phys StepLimiter
+  136    -1.17    0.175      202   1.2e+05  0.00282     0.01       402 sensor_telescope3_phys StepLimiter
+  137    -1.17    0.175      202   1.2e+05  0.00144     0.01       402 sensor_telescope3_phys StepLimiter
+  138    -1.17    0.175      202   1.2e+05  0.00173     0.01       402 sensor_telescope3_phys StepLimiter
+  139    -1.17    0.175      202   1.2e+05  0.00275     0.01       402 sensor_telescope3_phys StepLimiter
+  140    -1.17    0.175      202   1.2e+05  0.00239     0.01       402 sensor_telescope3_phys StepLimiter
+  141    -1.17    0.175      202   1.2e+05 0.000802  0.00536       402 bumps_wrapper_telescope3_phys Transportation
+  142    -1.17    0.175      202   1.2e+05 3.98e-06   0.0204       402 chip_telescope3_phys Transportation
+  143    -1.17    0.175      203   1.2e+05    0.222    0.713       403 support_telescope3_phys_0 Transportation
+  144    -1.17    0.175      205   1.2e+05    0.409     1.79       405       World Transportation
+  145    -1.17    0.175      216   1.2e+05   0.0021       12       416       World hIoni
+    :----- List of 2ndaries - #SpawnInStep=  1(Rest= 0,Along= 0,Post= 1), #SpawnTotal=  5 ---------------
+    :     -1.17     0.175       216   0.00244                 e-
+    :----------------------------------------------------------------- EndOf2ndaries Info ---------------
+  146    -1.17    0.174      249   1.2e+05  0.00677     32.1       449 sensor_telescope4_phys Transportation
+  147    -1.17    0.174      249   1.2e+05  0.00518     0.01       449 sensor_telescope4_phys StepLimiter
+  148    -1.17    0.174      249   1.2e+05  0.00174     0.01       449 sensor_telescope4_phys StepLimiter
+  149    -1.17    0.174      249   1.2e+05  0.00214     0.01       449 sensor_telescope4_phys StepLimiter
+  150    -1.17    0.174      249   1.2e+05  0.00129     0.01       449 sensor_telescope4_phys StepLimiter
+  151    -1.17    0.174      249   1.2e+05  0.00141     0.01       449 sensor_telescope4_phys StepLimiter
+  152    -1.17    0.174      249   1.2e+05   0.0017     0.01       449 sensor_telescope4_phys StepLimiter
+  153    -1.17    0.174      249   1.2e+05  0.00291     0.01       449 sensor_telescope4_phys StepLimiter
+  154    -1.17    0.174      249   1.2e+05  0.00193     0.01       449 sensor_telescope4_phys StepLimiter
+  155    -1.17    0.174      249   1.2e+05  0.00195     0.01       449 sensor_telescope4_phys StepLimiter
+  156    -1.17    0.174      249   1.2e+05  0.00181     0.01       449 sensor_telescope4_phys StepLimiter
+  157    -1.17    0.174      249   1.2e+05   0.0026     0.01       449 sensor_telescope4_phys StepLimiter
+  158    -1.17    0.174      249   1.2e+05  0.00232     0.01       449 sensor_telescope4_phys StepLimiter
+  159    -1.17    0.174      249   1.2e+05  0.00202     0.01       449 sensor_telescope4_phys StepLimiter
+  160    -1.17    0.174      249   1.2e+05  0.00526     0.01       449 sensor_telescope4_phys StepLimiter
+  161    -1.17    0.174      249   1.2e+05  0.00399     0.01       449 sensor_telescope4_phys StepLimiter
+  162    -1.17    0.174      249   1.2e+05  0.00208     0.01       449 sensor_telescope4_phys StepLimiter
+  163    -1.17    0.174      249   1.2e+05  0.00122     0.01       449 sensor_telescope4_phys StepLimiter
+  164    -1.17    0.174      249   1.2e+05  0.00296     0.01       449 sensor_telescope4_phys StepLimiter
+  165    -1.17    0.174      249   1.2e+05  0.00349     0.01       449 sensor_telescope4_phys StepLimiter
+  166    -1.17    0.174      249   1.2e+05  0.00166     0.01       449 sensor_telescope4_phys StepLimiter
+  167    -1.17    0.174      249   1.2e+05  0.00386     0.01       449 sensor_telescope4_phys StepLimiter
+  168    -1.17    0.174      249   1.2e+05  0.00264     0.01       449 sensor_telescope4_phys StepLimiter
+  169    -1.17    0.174      249   1.2e+05  0.00187     0.01       449 sensor_telescope4_phys StepLimiter
+  170    -1.17    0.174      249   1.2e+05  0.00478     0.01       449 sensor_telescope4_phys StepLimiter
+  171    -1.17    0.174      249   1.2e+05  0.00123     0.01       449 sensor_telescope4_phys StepLimiter
+  172    -1.17    0.174      249   1.2e+05  0.00402     0.01       449 sensor_telescope4_phys StepLimiter
+  173    -1.17    0.174      249   1.2e+05    0.003     0.01       449 sensor_telescope4_phys StepLimiter
+  174    -1.17    0.174      249   1.2e+05  0.00292     0.01       449 sensor_telescope4_phys StepLimiter
+  175    -1.17    0.174      249   1.2e+05  0.00134     0.01       449 sensor_telescope4_phys StepLimiter
+  176    -1.17    0.174      249   1.2e+05    0.021     0.01       449 sensor_telescope4_phys StepLimiter
+  177    -1.17    0.174      249   1.2e+05 0.000439  0.00694       449 bumps_wrapper_telescope4_phys Transportation
+  178    -1.17    0.174      249   1.2e+05 1.16e-06  0.00596       449 bumps_telescope4_phys Transportation
+  179    -1.17    0.174      249   1.2e+05  0.00537  0.00815       449 bumps_wrapper_telescope4_phys Transportation
+  180    -1.17    0.174      249   1.2e+05 1.24e-06  0.00635       449 chip_telescope4_phys Transportation
+  181    -1.17    0.174      250   1.2e+05    0.241    0.716       450 support_telescope4_phys_0 Transportation
+  182    -1.17    0.174      250   1.2e+05    0.156    0.721       450 support_telescope4_phys_0 hIoni
+    :----- List of 2ndaries - #SpawnInStep=  1(Rest= 0,Along= 0,Post= 1), #SpawnTotal=  6 ---------------
+    :     -1.17     0.174       250    0.0422                 e-
+    :----------------------------------------------------------------- EndOf2ndaries Info ---------------
+  183    -1.17    0.174      251   1.2e+05    0.173    0.752       451 support_telescope4_phys_0 hIoni
+    :----- List of 2ndaries - #SpawnInStep=  1(Rest= 0,Along= 0,Post= 1), #SpawnTotal=  7 ---------------
+    :     -1.17     0.174       251    0.0394                 e-
+    :----------------------------------------------------------------- EndOf2ndaries Info ---------------
+  184    -1.17    0.174      251   1.2e+05   0.0807    0.328       451       World Transportation
+  185    -1.17    0.172      299   1.2e+05  0.00837     47.7       499 sensor_telescope5_phys Transportation
+  186    -1.17    0.172      299   1.2e+05  0.00274     0.01       499 sensor_telescope5_phys StepLimiter
+  187    -1.17    0.172      299   1.2e+05  0.00255     0.01       499 sensor_telescope5_phys StepLimiter
+  188    -1.17    0.172      299   1.2e+05  0.00257     0.01       499 sensor_telescope5_phys StepLimiter
+  189    -1.17    0.172      299   1.2e+05   0.0016     0.01       499 sensor_telescope5_phys StepLimiter
+  190    -1.17    0.172      299   1.2e+05  0.00793     0.01       499 sensor_telescope5_phys StepLimiter
+  191    -1.17    0.172      299   1.2e+05  0.00239     0.01       499 sensor_telescope5_phys StepLimiter
+  192    -1.17    0.172      299   1.2e+05  0.00138     0.01       499 sensor_telescope5_phys StepLimiter
+  193    -1.17    0.172      299   1.2e+05  0.00213     0.01       499 sensor_telescope5_phys StepLimiter
+  194    -1.17    0.172      299   1.2e+05  0.00284     0.01       499 sensor_telescope5_phys StepLimiter
+  195    -1.17    0.172      299   1.2e+05  0.00284     0.01       499 sensor_telescope5_phys StepLimiter
+  196    -1.17    0.172      299   1.2e+05  0.00245     0.01       499 sensor_telescope5_phys StepLimiter
+  197    -1.17    0.172      299   1.2e+05  0.00304     0.01       499 sensor_telescope5_phys StepLimiter
+  198    -1.17    0.172      299   1.2e+05  0.00219     0.01       499 sensor_telescope5_phys StepLimiter
+  199    -1.17    0.172      299   1.2e+05  0.00239     0.01       499 sensor_telescope5_phys StepLimiter
+  200    -1.17    0.172      299   1.2e+05  0.00382     0.01       499 sensor_telescope5_phys StepLimiter
+  201    -1.17    0.172      299   1.2e+05    0.001     0.01       499 sensor_telescope5_phys StepLimiter
+  202    -1.17    0.172      299   1.2e+05  0.00252     0.01       499 sensor_telescope5_phys StepLimiter
+  203    -1.17    0.172      299   1.2e+05 0.000542     0.01       499 sensor_telescope5_phys StepLimiter
+  204    -1.17    0.172      299   1.2e+05  0.00105     0.01       499 sensor_telescope5_phys StepLimiter
+  205    -1.17    0.172      299   1.2e+05  0.00146     0.01       499 sensor_telescope5_phys StepLimiter
+  206    -1.17    0.172      299   1.2e+05  0.00224     0.01       499 sensor_telescope5_phys StepLimiter
+  207    -1.17    0.172      299   1.2e+05  0.00263     0.01       499 sensor_telescope5_phys StepLimiter
+  208    -1.17    0.172      299   1.2e+05  0.00114     0.01       499 sensor_telescope5_phys StepLimiter
+  209    -1.17    0.172      299   1.2e+05  0.00488     0.01       499 sensor_telescope5_phys StepLimiter
+  210    -1.17    0.172      299   1.2e+05  0.00343     0.01       499 sensor_telescope5_phys StepLimiter
+  211    -1.17    0.172      299   1.2e+05  0.00188     0.01       499 sensor_telescope5_phys StepLimiter
+  212    -1.17    0.172      299   1.2e+05  0.00318     0.01       499 sensor_telescope5_phys StepLimiter
+  213    -1.17    0.172      299   1.2e+05  0.00211     0.01       499 sensor_telescope5_phys StepLimiter
+  214    -1.17    0.172      299   1.2e+05  0.00232     0.01       499 sensor_telescope5_phys StepLimiter
+  215    -1.17    0.172      299   1.2e+05  0.00314     0.01       499 sensor_telescope5_phys StepLimiter
+  216    -1.17    0.172      299   1.2e+05  0.00123     0.01       499 sensor_telescope5_phys StepLimiter
+  217    -1.17    0.172      299   1.2e+05        0 7.47e-05       499 bumps_wrapper_telescope5_phys Transportation
+  218    -1.17    0.172      299   1.2e+05 4.04e-06   0.0207       499 chip_telescope5_phys Transportation
+  219    -1.17    0.172      300   1.2e+05    0.238    0.724       500 support_telescope5_phys_0 Transportation
+  220    -1.17    0.172      302   1.2e+05    0.453     1.82       502       World Transportation
+  221    -1.17    0.171      349   1.2e+05  0.00987     46.6       549  OutOfWorld Transportation
+
