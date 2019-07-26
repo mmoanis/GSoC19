@@ -48,7 +48,7 @@ cd
 # Root
 wget -O root.tar.gz https://root.cern/download/root_v6.16.00.source.tar.gz
 tar zvxf root.tar.gz
-cd root-6.16.00
+cd root-6.08.06
 mkdir build_release
 cd build_release
 cmake -DCMAKE_BUILD_TYPE=Release ..
