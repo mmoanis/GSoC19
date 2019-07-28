@@ -57,7 +57,7 @@ sudo make install
 cd
 
 # Geant4
-wget -O geant4.tar.gz http://cern.ch/geant4-data/releases/geant4.10.05.p01.tar.gz
+wget -O geant4.tar.gz http://cern.ch/geant4-data/releases/geant4_10_03_p03.zip
 tar zvxf geant4.tar.gz
 cd geant4.10.05.p01
 mkdir build_release
