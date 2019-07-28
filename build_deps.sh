@@ -59,7 +59,7 @@ cd
 # Geant4
 wget -O geant4.tar.gz http://cern.ch/geant4-data/releases/geant4_10_03_p03.zip
 tar zvxf geant4.tar.gz
-cd geant4.10.05.p01
+cd geant4_10_03_p03
 mkdir build_release
 cd build_release
 cmake -DGEANT4_INSTALL_DATA=ON -DGEANT4_USE_GDML=ON  -DGEANT4_USE_QT=ON  -DGEANT4_USE_XM=ON -DGEANT4_USE_OPENGL_X11=ON  -DGEANT4_USE_SYSTEM_CLHEP=OFF \
