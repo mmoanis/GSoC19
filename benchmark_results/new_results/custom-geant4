@@ -1,0 +1,37 @@
+custom-geant4/12detector_12cpu.log:|05:24:55.034|  (STATUS) Executed 53 instantiations in 26 minutes 30 seconds, spending 16% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector_16cpu.log:|05:58:13.688|  (STATUS) Executed 53 instantiations in 22 minutes 31 seconds, spending 20% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector_1cpu.log:|00:15:42.619|  (STATUS) Executed 53 instantiations in 3 hours 44 minutes 30 seconds, spending 9% of time in slowest instantiation GenericPropagation:detector7
+custom-geant4/12detector_20cpu.log:|06:31:08.720|  (STATUS) Executed 53 instantiations in 23 minutes 56 seconds, spending 25% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector_24cpu.log:|07:00:12.323|  (STATUS) Executed 53 instantiations in 20 minutes 15 seconds, spending 28% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector_28cpu.log:|07:25:52.566|  (STATUS) Executed 53 instantiations in 18 minutes 8 seconds, spending 29% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector_32cpu.log:|07:50:13.320|  (STATUS) Executed 53 instantiations in 17 minutes 13 seconds, spending 32% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector_36cpu.log:|08:14:16.326|  (STATUS) Executed 53 instantiations in 17 minutes 17 seconds, spending 35% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector_40cpu.log:|08:38:26.376|  (STATUS) Executed 53 instantiations in 17 minutes 15 seconds, spending 39% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector_4cpu.log:|03:44:04.286|  (STATUS) Executed 53 instantiations in 1 hours 4 minutes 55 seconds, spending 9% of time in slowest instantiation GenericPropagation:detector7
+custom-geant4/12detector_8cpu.log:|04:44:14.969|  (STATUS) Executed 53 instantiations in 34 minutes 55 seconds, spending 9% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/12detector.log:|13:10:36.388|  (STATUS) Executed 53 instantiations in 3 hours 45 minutes 12 seconds, spending 9% of time in slowest instantiation GenericPropagation:detector7
+custom-geant4/1detector_12cpu.log:|05:35:41.331|  (STATUS) Executed 8 instantiations in 2 minutes 31 seconds, spending 92% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_16cpu.log:|06:07:10.774|  (STATUS) Executed 8 instantiations in 2 minutes 8 seconds, spending 91% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_1cpu.log:|14:53:04.406|  (STATUS) Executed 8 instantiations in 20 minutes 37 seconds, spending 97% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_20cpu.log:|06:39:55.756|  (STATUS) Executed 8 instantiations in 2 minutes 6 seconds, spending 89% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_24cpu.log:|07:07:42.444|  (STATUS) Executed 8 instantiations in 1 minutes 50 seconds, spending 95% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_28cpu.log:|07:32:58.674|  (STATUS) Executed 8 instantiations in 1 minutes 48 seconds, spending 94% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_32cpu.log:|07:56:57.141|  (STATUS) Executed 8 instantiations in 1 minutes 43 seconds, spending 94% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_36cpu.log:|08:21:09.829|  (STATUS) Executed 8 instantiations in 1 minutes 45 seconds, spending 93% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_40cpu.log:|08:45:02.468|  (STATUS) Executed 8 instantiations in 1 minutes 44 seconds, spending 92% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_4cpu.log:|04:09:17.831|  (STATUS) Executed 8 instantiations in 5 minutes 27 seconds, spending 95% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector_8cpu.log:|04:58:22.916|  (STATUS) Executed 8 instantiations in 3 minutes 4 seconds, spending 94% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/1detector.log:|15:48:35.565|  (STATUS) Executed 8 instantiations in 20 minutes 33 seconds, spending 97% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_12cpu.log:|05:33:07.928|  (STATUS) Executed 21 instantiations in 8 minutes 10 seconds, spending 23% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_16cpu.log:|06:05:00.363|  (STATUS) Executed 21 instantiations in 6 minutes 43 seconds, spending 23% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_1cpu.log:|14:07:33.822|  (STATUS) Executed 21 instantiations in 1 hours 13 minutes 50 seconds, spending 25% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_20cpu.log:|06:37:47.206|  (STATUS) Executed 21 instantiations in 6 minutes 35 seconds, spending 21% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_24cpu.log:|07:05:50.071|  (STATUS) Executed 21 instantiations in 5 minutes 35 seconds, spending 21% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_28cpu.log:|07:31:07.985|  (STATUS) Executed 21 instantiations in 5 minutes 12 seconds, spending 21% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_32cpu.log:|07:55:11.947|  (STATUS) Executed 21 instantiations in 4 minutes 55 seconds, spending 21% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_36cpu.log:|08:19:22.394|  (STATUS) Executed 21 instantiations in 5 minutes 3 seconds, spending 20% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_40cpu.log:|08:43:16.196|  (STATUS) Executed 21 instantiations in 4 minutes 46 seconds, spending 21% of time in slowest instantiation ROOTObjectWriter
+custom-geant4/4detector_4cpu.log:|04:03:48.501|  (STATUS) Executed 21 instantiations in 19 minutes 42 seconds, spending 25% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector_8cpu.log:|04:55:16.498|  (STATUS) Executed 21 instantiations in 10 minutes 58 seconds, spending 24% of time in slowest instantiation GenericPropagation:detector1
+custom-geant4/4detector.log:|17:03:40.489|  (STATUS) Executed 21 instantiations in 1 hours 13 minutes 11 seconds, spending 25% of time in slowest instantiation GenericPropagation:detector1
+
